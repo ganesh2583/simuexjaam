@@ -1,0 +1,27 @@
+{
+  "name": "exam-ui",
+  "version": "1.0.0",
+  "description": "UI for Exam Software",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "jest"
+  },
+  "author": "Ganesh Chaitanya Kale",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "dotenv-webpack": "^1.7.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
